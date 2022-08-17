@@ -1,5 +1,7 @@
-import conversaoFeetToMeters
+#IMportando Modulo em Python
+import conversaoFeetToMeters #tambem podemos "fazer from conversaoFeetToMeters import FeetToMeter" para importar funcoes especificas
 
+#Nao Precisa colocar o tipo antes da variavel (tipagem dinamica)
 option = None
 
 while option != "3":
