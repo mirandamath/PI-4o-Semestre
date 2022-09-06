@@ -58,7 +58,7 @@ faixas = np.array([1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 
 fig, ax = plt.subplots()
 
 
-ax.hist(vendas_mes, bins=faixas,label = [1,2,3,4,5,6,7,8,9,10,11,12,13])
+ax.hist(vendas_mes)
 ax.legend()
 
 # Gráfico 5 - Pizza. % da quantidade produtos vendidos no ano em cada produto
